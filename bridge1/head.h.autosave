@@ -1,0 +1,7 @@
+#include <QTextCodec>
+QString fileName=QFileDialog::getOpenFileName()
+
+#ifndef HEAD_H
+#define HEAD_H
+
+#endif // HEAD_H

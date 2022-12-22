@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deflectionpointdialog</class>
+ <widget class="QDialog" name="deflectionpointdialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QRadioButton" name="radioButton_13">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>89</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>十三号监测点</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_14">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>170</y>
+     <width>89</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>十四号监测点</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 16pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>                请选择基准点传感器</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>210</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>391</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QRadioButton" name="radioButton">
+      <property name="text">
+       <string>一号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_2">
+      <property name="text">
+       <string>二号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_3">
+      <property name="text">
+       <string>三号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_4">
+      <property name="text">
+       <string>四号监测点</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>391</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QRadioButton" name="radioButton_5">
+      <property name="text">
+       <string>五号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_6">
+      <property name="text">
+       <string>六号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_7">
+      <property name="text">
+       <string>七号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_8">
+      <property name="text">
+       <string>八号监测点</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>391</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QRadioButton" name="radioButton_9">
+      <property name="text">
+       <string>九号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_10">
+      <property name="text">
+       <string>十号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_11">
+      <property name="text">
+       <string>十一号监测点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_12">
+      <property name="text">
+       <string>十二号监测点</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
